@@ -3,7 +3,7 @@ It adds a lot of options to various entities to make them more useful.
 
 **Note:** You should change the default entity from info_survivor_position to something else like info_player_start. Somehow changing from info_survivor_position fo env_sprite crashes hammer.
 
-### Contains
+# Contains
 1. "Fade Distance" sphere helper to areaportal_window entities so you can easier pick where the fade starts and ends.
 2. Ammo upgrade entities as already deployed versions.
 3. New visgroups for many type of entities.
@@ -11,7 +11,7 @@ It adds a lot of options to various entities to make them more useful.
 5. More useful melee spawner that lists all usable melee weapon names in the help box, to copypaste names. Along with a model picker to easily pick any helper model you want. Also has a helper model browser that's just there to find a custom melee model, so you can copypaste the path of the model into the helper model field. It's a bit weird, but the best setup that i can do.
 6. info_survivor_position entities that allow you to pick the player model to align intro sequences.
 8. Marking leftover unused entities as Obsolete with the apropriate icon.
-7. A whole lot of entity fixes specific for L4D2.
+7. A whole lot of entity fixes specific for L4D2. Some values have been removed because L4D2 does not have them (Like "World Is Cold" in worldspawn), or the entity settings like adding Parentname to prop_physics, amongst other things.
 8. Generic helper models for all weapon_spawn, item_spawn, upgrade_spawn. To diferentiate specific weapon spawnpoints from randomised spawns.
 9. Helper meshes for env_sprites, which are balls colored in the same color sprites are colored. Furthermode, all sprites are now "World Space Glow" by default, which is what lensflare sprites usually always are supposed to be.
 10. A bunch of new iconsprites and helper models for some often used entities, to differentiate them better. 
@@ -26,7 +26,8 @@ Contains a VPK for hammer, including:
 4. L4D2 specific measure textures for doors, jump height, crouch space...
 5. Aforementioned **alleydirt_leaves** and **urban_overgrown_docks** $detailtype, with the required **detail.vbsp**
 
-### Install
+
+# Install
 1. Download the entire "L4D2-FGD-Edits" repo folder into ```Steam\steamapps\common\Left 4 Dead 2\bin```
 2. You should end up with the directory ```Steam\steamapps\common\Left 4 Dead 2\bin\L4D2-FGD-Edits```
 3. In hammer click on **Tools - Options**
@@ -49,7 +50,7 @@ Game	hl2
 <p>Note:</p>
 Should i ever add another branch, the *L4D2-FGD-Edits-main* folder which you download might use another name. In which case you'd also need to rename this name in the gameinfo.
 
-### Images
+# Images
 Here are images of *some* abilities that have been added or changed.
 <p>Areaportal Distance Picker.</p>
 <img src="pictures/areaportalwindow.gif"/>
